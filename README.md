@@ -4,4 +4,7 @@ complete DNS paylod is printed on the terminal
 Basically it does deep packet inspection of the DNS payload.
 
 steps to run the program :
-sudo go run dns_parser.go en0
+    1. sudo go run dns_parser.go en0
+
+Still need to fix the parsing of the DNS responses field in the DNS payload.
+
